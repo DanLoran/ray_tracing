@@ -1,3 +1,9 @@
+brew install bazelisk
+brew install buildifier
+
+bazel run target
+bazel test target
+
 # basic_setup_cc
 
 ## Do once per repo:
